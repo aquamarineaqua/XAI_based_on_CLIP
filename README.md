@@ -4,26 +4,28 @@
 
 An Explainable Medical Imaging Feature Store Powered by CLIP
 
+Chinese Documentation See: [Documentaions_and_Notebooks_CHN](./Documentaions_and_Notebooks_CHN/)
+
 </div>
 
 ## Table of Contents
 
 - [XAI\_based\_on\_CLIP](#xai_based_on_clip)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Installation \& Environment](#installation--environment)
-  - [Quick Start](#quick-start)
-    - [Option A: Notebooks (Recommended First Run)](#option-a-notebooks-recommended-first-run)
-    - [Option B: Command Line Scripts](#option-b-command-line-scripts)
-  - [Data Writing Workflow (Notebook1)](#data-writing-workflow-notebook1)
-  - [Data Reading \& Access (Notebook2)](#data-reading--access-notebook2)
-  - [HDF5 Feature Store Structure](#hdf5-feature-store-structure)
-  - [Python Module Overview](#python-module-overview)
-  - [CLI Usage Examples](#cli-usage-examples)
-  - [Custom Dataset Integration Guide](#custom-dataset-integration-guide)
-  - [FAQ \& Optimization Tips](#faq--optimization-tips)
-  - [Acknowledgements \& Citations](#acknowledgements--citations)
-  - [TODO](#todo)
+	- [Table of Contents](#table-of-contents)
+	- [Overview](#overview)
+	- [Installation \& Environment](#installation--environment)
+	- [Quick Start](#quick-start)
+		- [Option A: Notebooks (Recommended First Run)](#option-a-notebooks-recommended-first-run)
+		- [Option B: Command Line Scripts](#option-b-command-line-scripts)
+	- [Data Writing Workflow (Notebook1)](#data-writing-workflow-notebook1)
+	- [Data Reading \& Access (Notebook2)](#data-reading--access-notebook2)
+	- [HDF5 Feature Store Structure](#hdf5-feature-store-structure)
+	- [Python Module Overview](#python-module-overview)
+	- [CLI Usage Examples](#cli-usage-examples)
+	- [Custom Dataset Integration Guide](#custom-dataset-integration-guide)
+	- [FAQ \& Optimization Tips](#faq--optimization-tips)
+	- [Acknowledgements \& Citations](#acknowledgements--citations)
+	- [TODO](#todo)
 
 ---
 
