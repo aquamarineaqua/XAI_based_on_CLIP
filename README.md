@@ -72,9 +72,9 @@ login(token="<YOUR_HF_TOKEN>")
 
 ### Option A: Notebooks (Recommended First Run)
 
-1. Open `[Notebook1]Generate_concept_features.ipynb` and run cells sequentially (Text → Image).
+1. Open [`[Notebook1]Generate_concept_features.ipynb`](./[Notebook1]Generate_concept_features.ipynb) and run cells sequentially (Text → Image).
 2. After completion, the file `conceptclip_features.h5` will be created.
-3. Open `[Notebook2]Access_Database.ipynb` to inspect structure and run access examples.
+3. Open [`[Notebook2]Access_Database.ipynb`](./[Notebook2]Access_Database.ipynb) to inspect structure and run access examples.
 
 ### Option B: Command Line Scripts
 
