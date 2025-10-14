@@ -2,7 +2,7 @@
 
 # XAI_based_on_CLIP
 
-An Explainable Medical Imaging Feature Store Powered by CLIP
+Toolkit for Constructing and Querying CLIP-based Explainable Feature Sets in Medical Imaging
 
 Chinese Documentation See: [Documentaions_and_Notebooks_CHN](./Documentaions_and_Notebooks_CHN/)
 
