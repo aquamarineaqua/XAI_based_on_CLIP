@@ -8,10 +8,9 @@ Chinese Documentation See: [Documentaions_and_Notebooks_CHN](./Documentaions_and
 
 </div>
 
-## Table of Contents
+**Table of Contents**
 
 - [XAI\_based\_on\_CLIP](#xai_based_on_clip)
-	- [Table of Contents](#table-of-contents)
 	- [Overview](#overview)
 	- [Installation \& Environment](#installation--environment)
 	- [Quick Start](#quick-start)
