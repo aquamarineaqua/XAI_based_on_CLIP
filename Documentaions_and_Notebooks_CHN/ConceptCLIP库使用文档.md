@@ -7,7 +7,7 @@ ConceptCLIP使用文档
 # 导入库
 from transformers import AutoModel, AutoProcessor
 from huggingface_hub import login, whoami
-login(token="<YOUR_HF_TOKEN>")  # 替换为你的HF token（生产环境中请勿硬编码）
+login(token="<YOUR TOKEN>")
 print(whoami())
 ```
 
@@ -45,6 +45,8 @@ inputs = processor(
 processor.image_processor.do_rescale = False  # already [0,1] scaled, so disable rescale in processor
 processor.image_processor.do_normalize = True  # enable normalize in processor
 ```
+
+此外，ConceptCLIP要求输入的图像尺寸是：384×384，所以不能改变processor的输出图像尺寸。
 
 ## 3 模型输入和输出结构解析
 
@@ -155,4 +157,4 @@ with torch.inference_mode():
 
 `img_cls`即与原输出字段 "image_features" 内容相同。
 
-img_tokens需要再经过以此 model.image_proj() 映射得到`img_tokens_proj`，最终得到与原输出字段 "image_token_features" 相同的内容。
+img_tokens需要再经过以此 model.image_proj() 映射得到`img_tokens_proj`，最终得到与原输出字段 "image_token_features" 相同的内容（把 patch 级视觉特征映射到“与文本对齐的概念空间”的投影头）。
